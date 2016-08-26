@@ -1,0 +1,23 @@
+development:
+ adapter: postgresql
+ encoding: utf8
+ database: careerfully_database_dev
+ password: jfsi
+ host: localhost
+ port: 3306
+
+ test:
+ adapter: postgresql
+ encoding: utf8
+ database: careerfully_database_test
+ password: jfsi
+ host: localhost
+ port: 3306
+
+ production:
+ adapter: postgresql
+ encoding: utf8
+ database: careerfully_database
+ password: jfsi
+ host: localhost
+ port: 3306

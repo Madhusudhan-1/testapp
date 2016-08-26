@@ -1,0 +1,15 @@
+<html>
+<h1> Welcome to Library ! <h1>
+<h3> please sign in </h3>
+<%= form_tag :action => 'create' do %>
+<p><label for = "user_name">Username</label>:
+<%= text_field 'signin' ,'user_name' %></p>
+<p><label for = "password">Password</label>:
+<%= text_field 'signin', 'password' %></p>
+<%= debug(@user) %>
+<%= submit_tag "Create" %>
+
+<% end -%>
+
+
+</html>
